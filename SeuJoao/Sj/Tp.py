@@ -147,7 +147,7 @@ class SeuJoão(MDApp):
 
             elif "desentupir" in comando:
                 self.falar("Ok! aqui está!")
-                subprocess.run( ["python", "E:\\SeuJoao\\Sj\\Tpia.py"]) 
+                subprocess.run( ["python", "E:\SeuJoao\Tpi.kv"]) 
                 break
            
             if not comando:
