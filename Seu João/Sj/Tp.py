@@ -149,6 +149,16 @@ class SeuJoão(MDApp):
                 self.falar("Ok! aqui está!")
                 subprocess.run(["python", "E:\\SeuJoao\\Sj\\Tpia.py"]) 
                 break
+
+            elif "mofo" in comando:
+                self.falar("Ok! aqui está!")
+                subprocess.run(["python", "E:\\SeuJoao\\Sj\\Tmof.py"]) 
+                break
+            
+            elif "fissura" in comando:
+                self.falar("Ok! aqui está!")
+                subprocess.run(["python", "E:\\SeuJoao\\Sj\\Tfiss.py"]) 
+                break
            
             if not comando:
                 self.change_label_text()
